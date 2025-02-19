@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.container a, u {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    display: flex; 
+    justify-content: space-between;
+    
+    
+}
+
+
+.nav-bar{
+    background-color: ghostwhite;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+
+}
+
+
+.nav-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li{
+    display: inline;
+    padding: 8px;
+    padding-right: 24px;
+    font-size: 26px;
+    font-style: bold;
+    
+}
+
+li:hover {
+    background-color: gray;
+    color: white; 
+    cursor: pointer;
+    border-radius: 5px; 
+    padding: 8px 10px 10px; 
+}
+
+.container img{
+    max-width: 25%; 
+    height: auto;
+    padding-left: 24px;
+}
+
+
+/* Detail Page Styles */
+.detail-page {
+    display: grid; /* Add this */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 126px;
+    align-items: start; /* Align items at the top */
+}
+
+/* Ensure the image crops correctly */
+.main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Ensure thumbnails remain properly aligned */
+.thumbnail-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+/* Move property details to the right */
+.property-details {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.image-gallery {
+    display: grid;
+    gap: 1rem;
+}
+.main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.thumbnail-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+.thumbnail:hover {
+    opacity: 0.8;
+}
+.property-details {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.price {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+.back-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+.back-button:hover {
+    background-color: #555;
+}
