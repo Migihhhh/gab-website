@@ -78,9 +78,11 @@ a{
 
 
 .container img{
-    max-width: 25%; 
-    height: auto;
+    padding-top: 6px;
+    width: 200px; 
+    height: 110px;
     padding-left: 24px;
+    object-fit: cover;
 }
 
 
