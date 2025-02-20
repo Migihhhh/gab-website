@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fsstyles.css">
+    <title>For Sale</title>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="logo-nav">
+                <img src="/assets/placeholder.png" alt="">
+            </div>
+            <div class="nav-buttons">
+                <ul>
+                    <li>
+                        <a href="/index.html">Buy a Home</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/index.html">List a Property</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="detailPage" class="detail-page">
+        <div class="image-gallery">
+            <img src="/assets/modernhouse.jpg?height=400&width=500" alt="Main House View" class="main-image" id="mainImage">
+            <div class="thumbnail-container">
+                <img src="/assets/modernhouse.jpg?height=100&width=100" alt="Thumbnail 1" class="thumbnail" onclick="updateMainImage(this.src)">
+                <img src="/assets/modernhouse.jpg?height=100&width=100" alt="Thumbnail 2" class="thumbnail" onclick="updateMainImage(this.src)">
+                <img src="/assets/modernhouse.jpg?height=100&width=100" alt="Thumbnail 3" class="thumbnail" onclick="updateMainImage(this.src)">
+                <img src="/assets/modernhouse.jpg?height=100&width=100" alt="Thumbnail 4" class="thumbnail" onclick="updateMainImage(this.src)">
+                <img src="/assets/modernhouse.jpg?height=100&width=100" alt="Thumbnail 5" class="thumbnail" onclick="updateMainImage(this.src)">
+            </div>
+        </div>
+        <div class="property-details">
+            <button class="back-button"><a href="/index.html">← Back to Listings</a></button>
+            <h2 id="propertyTitle">Charming Cottage</h2>
+            <p class="price" id="propertyPrice">$200,000</p>
+            <div id="propertyDetails">
+                <h3>Property Details</h3>
+                <p><strong>Bedrooms:</strong> 2</p>
+                <p><strong>Bathrooms:</strong> 1</p>
+                <p><strong>Square Feet:</strong> 1,100</p>
+                <p><strong>Year Built:</strong> 1980 (Renovated 2020)</p>
+                <p><strong>Lot Size:</strong> 0.3 Acres </p>
+                <h3>Description</h3>
+                <p>Nestled in a peaceful countryside setting, this charming cottage exudes warmth and character. Featuring a wood-burning fireplace, exposed wooden beams, and a spacious garden, it’s the perfect getaway from the hustle and bustle. Ideal for a vacation home or a cozy primary residence.</p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Open concept floor plan</li>
+                    <li>Updated kitchen</li>
+                    <li>Stainless steel appliances</li>
+                    <li>Master suite with walk-in closet</li>
+                    <li>Large backyard</li>
+                    <li>Two-car garage</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/house/fsscripts.js"></script>
+</body>
+</html>
