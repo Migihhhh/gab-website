@@ -194,6 +194,18 @@ li:hover {
     text-decoration: none;
 }
 
+#inquireButton a{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
 .card button, .card a{
     background-color: #333;
     color: white;
