@@ -1,10 +1,13 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+ 
 }
 
 .container{
@@ -100,12 +103,14 @@ li:hover {
 }
 
 .main-text h1{
-    font-size: 66px;
+    font-size: 56px;
+    font-weight: 960;
 }
 
 
 .main-text button{
     font-size:26px;
+    font-weight: 560;
 }
 
 .about{
@@ -114,18 +119,25 @@ li:hover {
     padding-left: 15%;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-right: 450px;
     background-color: rgba(29, 159, 246, 0.12);
+}
+
+.about h1{
+    font-weight: 1000;
 }
 
 .about img{
     border-radius: 15%;
     width: 600px;
     height: auto;
-    padding-right: 36px;
+    padding-right: 56px;
+    padding-left: 36px;
 }
 
 .about .text{
     flex: 1;
+    
     
 }
 
@@ -169,6 +181,31 @@ li:hover {
 .card p {
     color: #666;
 }
+
+.main-button button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.card button, .card a{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
 .controls {
     position: absolute;
     top: 0;
@@ -208,3 +245,12 @@ li:hover {
     right: 10px;
 }
 
+#inquireButton {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  #inquireButton:hover {
+    top: -5px;
+  }
+  
